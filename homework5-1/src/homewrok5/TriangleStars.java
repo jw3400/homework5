@@ -42,7 +42,7 @@ public class TriangleStars {
 				{
 					System.out.print("*");
 				}
-				System.out.print("\n");
+				System.out.println();
 			}
 			break;
 		}
