@@ -34,7 +34,7 @@ public class DiamondStars {
 			{
 				for(int j=num; j>i; j--)		//num의 값에서 시작하여 왼쪽 공백 영역을 출력 [하나씩 감소]
 				{
-					System.out.print(" ");
+					System.out.print("  ");
 				}
 				for(int j=1; j<=i; j++)			//높이를 나타내는 수만큼 삼각형 왼쪽 영역에 *를 출력 [하나씩 증가]
 				{
@@ -51,7 +51,7 @@ public class DiamondStars {
 			{
 				for(int j=1; j<=i; j++)		//num의 값에서 시작하여 왼쪽 공백 영역을 출력 [하나씩 증가]
 				{
-					System.out.print(" ");
+					System.out.print("  ");
 				}
 				for(int j=num-1; j>=i; j--)			//높이를 나타내는 수만큼 삼각형 왼쪽 영역에 *를 출력 [하나씩 감소]
 				{

@@ -36,9 +36,9 @@ public class TriangleStars {
 			{
 				for(int j=1; j<=num-i; j++)		//num-i의 값을 입력받은 만큼 왼쪽여백의 값 반복적으로 찍어냄.
 				{
-					System.out.print(" ");
+					System.out.print("  ");
 				}
-				for(int k=1; k<=i; k++)			//높이를 나타내는 수만큼 *를 찍어냄. 높이가 1일 때 *를 찍는 것도 1개.
+				for(int j=1; j<=i; j++)			//높이를 나타내는 수만큼 *를 찍어냄. 높이가 1일 때 *를 찍는 것도 1개.
 				{
 					System.out.print("*");
 				}
